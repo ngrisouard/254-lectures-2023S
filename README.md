@@ -1,34 +1,38 @@
-# PHY254 "Classical Mechanics" lecture notes, summer 2023 edition
+# University of Toronto's PHY254 "Classical Mechanics" lecture notes, summer 2023 edition
 
 ## On authorship
 
-Lecture notes are not like articles or books, but they are still copyrighted. I cannot claim sole authorship on these lecture notes. Many times, I drew inspiration from previous colleagues who taught this course. This is usually fine, as lecture notes are passed on in person and remain hidden from public view.
+Lecture notes are not like articles or books, but they are still protected by copyright. I cannot claim sole authorship on these lecture notes. Many times, I drew inspiration from previous colleagues who taught this course. This is usually fine, as lecture notes are passed on in person and remain hidden from public view.
 
 Here however, to ease my student's access to these notes, I decided to make this repository public, while sometimes re-using the exact same words of my previous colleagues. I therefore need to acknoledge my "co-authors":
-* Stephen Morris, happily retired (taught PHY254 in 2013-2015 and 2020),
-* Sabine Stanley, now at Johns Hopkins University (taught PHY254 in 2010 and 2012),
-* Paul Kushner (taught PHY254 in 2009 and 2011),
+* [Paul Kushner](https://www.pjk.atmosp.physics.utoronto.ca/) (taught PHY254 in 2009 and 2011),
+* [Sabine Stanley](https://sabinestanley.com/), now at Johns Hopkins University (taught PHY254 in 2010 and 2012),
+* [Stephen Morris](https://imgflip.com/memegenerator/162372564/Domino-Effect), happily retired (taught PHY254 in 2013-2015 and 2020).
 
 If you recognize some of your prose in these notes, please reach out to be added on the list.
 
 ## Using this repository with the University of Toronto's JupyterHub
 
-Advanced users will not need my instructions, nor our University's JupyterHub, to use these lectures notes. For all others, here is a solution that should work. Please contact me if not, or click on the "Issues" tab above.
+Note that most of these instructions would work more or less the same way locally on Linux and MacOS (I have no idea about Windows) and advanced users will not need my instructions, nor our University's JupyterHub, to use these lectures notes. For all others, here is a solution that should work without needing to configure your computer, as long as you have internet access. Please contact me if these instructions don't work, or click on the "Issues" tab above.
 
 ### If first cloning into the JupyterHub:
 
 1. Go to https://jupyter.utoronto.ca, log in with your UTorID, and start the server.
 2. Near the top-right-hand corner of the home menu, hit the drop-down menu "New", and click on Terminal.
-3. Clone the repo of my chapters by typing
-    ```
-    git clone git@github.com:ngrisouard/254-lectures-2023S.git
-    ```
-    in the Terminal and hit return. This should create a new directory called `254-lectures-2023S`, containing my lecture notes.
+3. Clone the repo of my chapters. There are [two possibilities](https://www.howtogeek.com/devops/should-you-use-https-or-ssh-for-git/):
+    * The **SSH protocol** is more secure but requires you to first [generate a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key), applying these instructions in your JupyterHub terminal. Once this is sorted, enter the command
+        ```
+        git clone git@github.com:ngrisouard/254-lectures-2023S.git
+        ```
+        in the Terminal and hit return. 
 
-    An alternative is to use the http protocol:
-    ```
-    git clone https://github.com/ngrisouard/254-lectures-2023S.git
-    ```
+    * An alternative is to use the **HTTP protocol**.
+        ```
+        git clone https://github.com/ngrisouard/254-lectures-2023S.git
+        ```
+        To be honest, I don't use this protocol and I don't know if the rest of my instructions still apply if you use this protocol.
+      
+   Either options should create a new directory called `254-lectures-2023S`, containing my lecture notes.
 
 ### Refreshing the lecture notes
 
