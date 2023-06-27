@@ -30,8 +30,9 @@ Advanced users will not need my instructions, nor our University's JupyterHub, t
         ```
         git clone https://github.com/ngrisouard/254-lectures-2023S.git
         ```
-        To be honest, I don't use this protocol and I don't know if the rest of my instructions still apply if you use this protocol.  
-   This should create a new directory called `254-lectures-2023S`, containing my lecture notes.
+        To be honest, I don't use this protocol and I don't know if the rest of my instructions still apply if you use this protocol.
+      
+   Either options should create a new directory called `254-lectures-2023S`, containing my lecture notes.
 
 ### Refreshing the lecture notes
 
