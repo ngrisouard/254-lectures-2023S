@@ -5,9 +5,9 @@
 Lecture notes are not like articles or books, but they are still protected by copyright. I cannot claim sole authorship on these lecture notes. Many times, I drew inspiration from previous colleagues who taught this course. This is usually fine, as lecture notes are passed on in person and remain hidden from public view.
 
 Here however, to ease my student's access to these notes, I decided to make this repository public, while sometimes re-using the exact same words of my previous colleagues. I therefore need to acknoledge my "co-authors":
-* Stephen Morris, happily retired (taught PHY254 in 2013-2015 and 2020),
-* Sabine Stanley, now at Johns Hopkins University (taught PHY254 in 2010 and 2012),
-* Paul Kushner (taught PHY254 in 2009 and 2011),
+* [Stephen Morris](https://imgflip.com/memegenerator/162372564/Domino-Effect), happily retired (taught PHY254 in 2013-2015 and 2020),
+* [Sabine Stanley](https://sabinestanley.com/), now at Johns Hopkins University (taught PHY254 in 2010 and 2012),
+* [Paul Kushner](https://www.pjk.atmosp.physics.utoronto.ca/) (taught PHY254 in 2009 and 2011),
 
 If you recognize some of your prose in these notes, please reach out to be added on the list.
 
