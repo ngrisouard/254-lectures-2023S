@@ -19,16 +19,19 @@ Advanced users will not need my instructions, nor our University's JupyterHub, t
 
 1. Go to https://jupyter.utoronto.ca, log in with your UTorID, and start the server.
 2. Near the top-right-hand corner of the home menu, hit the drop-down menu "New", and click on Terminal.
-3. Clone the repo of my chapters by typing
-    ```
-    git clone git@github.com:ngrisouard/254-lectures-2023S.git
-    ```
-    in the Terminal and hit return. This should create a new directory called `254-lectures-2023S`, containing my lecture notes.
+3. Clone the repo of my chapters. There are [two possibilities](https://www.howtogeek.com/devops/should-you-use-https-or-ssh-for-git/):
+    * The **SSH protocol** is more secure but requires you to first [generate a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key), applying these instructions in your JupyterHub terminal. Once this is sorted, enter the command
+        ```
+        git clone git@github.com:ngrisouard/254-lectures-2023S.git
+        ```
+        in the Terminal and hit return. 
 
-    An alternative is to use the http protocol:
-    ```
-    git clone https://github.com/ngrisouard/254-lectures-2023S.git
-    ```
+    * An alternative is to use the **HTTP protocol**.
+        ```
+        git clone https://github.com/ngrisouard/254-lectures-2023S.git
+        ```
+        To be honest, I don't use this protocol and I don't know if the rest of my instructions still apply if you use this protocol.  
+   This should create a new directory called `254-lectures-2023S`, containing my lecture notes.
 
 ### Refreshing the lecture notes
 
