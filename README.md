@@ -1,4 +1,4 @@
-# PHY254 "Classical Mechanics" lecture notes, summer 2023 edition
+# University of Toronto's PHY254 "Classical Mechanics" lecture notes, summer 2023 edition
 
 ## On authorship
 
