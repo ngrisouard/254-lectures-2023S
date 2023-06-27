@@ -2,7 +2,7 @@
 
 ## On authorship
 
-Lecture notes are not like articles or books, but they are still copyrighted. I cannot claim sole authorship on these lecture notes. Many times, I drew inspiration from previous colleagues who taught this course. This is usually fine, as lecture notes are passed on in person and remain hidden from public view.
+Lecture notes are not like articles or books, but they are still protected by copyright. I cannot claim sole authorship on these lecture notes. Many times, I drew inspiration from previous colleagues who taught this course. This is usually fine, as lecture notes are passed on in person and remain hidden from public view.
 
 Here however, to ease my student's access to these notes, I decided to make this repository public, while sometimes re-using the exact same words of my previous colleagues. I therefore need to acknoledge my "co-authors":
 * Stephen Morris, happily retired (taught PHY254 in 2013-2015 and 2020),
@@ -13,7 +13,7 @@ If you recognize some of your prose in these notes, please reach out to be added
 
 ## Using this repository with the University of Toronto's JupyterHub
 
-Advanced users will not need my instructions, nor our University's JupyterHub, to use these lectures notes. For all others, here is a solution that should work. Please contact me if not, or click on the "Issues" tab above.
+Note that most of these instructions would work more or less the same way locally on Linux and MacOS (I have no idea about Windows) and advanced users will not need my instructions, nor our University's JupyterHub, to use these lectures notes. For all others, here is a solution that should work without needing to configure your computer, as long as you have internet access. Please contact me if these instructions don't work, or click on the "Issues" tab above.
 
 ### If first cloning into the JupyterHub:
 
