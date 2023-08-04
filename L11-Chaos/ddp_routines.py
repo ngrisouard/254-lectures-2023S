@@ -83,7 +83,7 @@ def plot_phase(th, dth, wd, w0, b, g, t, ftsz, nconts):
     plt.contourf(thg/pi, dthg/pi/wd, Ug, nconts, alpha=0.1)
     plt.contour(thg/pi, dthg/pi/wd, Ug, [2*w0**2],  # Separatrix
                 colors='r', linestyles='--', linewidths=0.5)
-    
+
     # Then we plot the phase trajectory
     # plt.plot(th/pi, dth/pi/wd, 'r.', markersize=2)
     # c=t means color-coded by t; s is size
@@ -160,6 +160,8 @@ def plot_bifurcation(bmin, bmax, nbs, wd, w0, g, th0, dth0, n_per_Td, ftsz):
     """ Bifurcation plot for the DDP; produces two: one for velocity,
     one for angle """
 
+    betac = 1.0829  # critical beta; chaos above
+
     # Redefine time quantities because bifurcation diagrams need more points
     Td = 2*pi/wd  # driving period
     dt = Td/n_per_Td  # time step
@@ -193,6 +195,8 @@ def plot_bifurcation(bmin, bmax, nbs, wd, w0, g, th0, dth0, n_per_Td, ftsz):
         ax2.plot(x_values, Pc_dthvals, 'g.', markersize=.5)
 
     # Finish the plot for theta
+    if bmin < betac and bmax > betac:
+        ax1.axvline(betac, c='r', ls=':')
     ax1.set_xlabel(r'$\beta$ [rad]', fontsize=ftsz)
     ax1.set_ylabel(r'$\theta/\pi$', fontsize=ftsz)
     ax1.set_title(r"Bifurcation plot for " +
@@ -207,6 +211,8 @@ def plot_bifurcation(bmin, bmax, nbs, wd, w0, g, th0, dth0, n_per_Td, ftsz):
         1000*bmin, 1000*bmax))
 
     # Finish the plot for dtheta
+    if bmin < betac and bmax > betac:
+        ax1.axvline(betac, c='r', ls=':')
     ax2.set_xlabel(r'$\beta$ [rad]', fontsize=ftsz)
     ax2.set_ylabel(r'$\dot\theta/(\pi\omega_d)$', fontsize=ftsz)
     ax2.set_title(r"Bifurcation plot for " +
